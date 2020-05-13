@@ -2,7 +2,7 @@ def getPet(activityLevel, time, size):
     if activityLevel.lower() == "low":
         if time.lower() == "low":
             if size.lower() == "small":
-                #return "{"pet": "goldfish", "img_url": "/static/images/goldfish.jpg"}"
+                return "{"pet": "goldfish", "img_url": "/static/images/goldfish.jpg"}"
                 return "goldfish"
             if size.lower() == "medium":
                 return "turtle"
@@ -69,11 +69,11 @@ def getPet(activityLevel, time, size):
             if size.lower() == "large":
                 return "golden retriever!"
 
-def getPetPic(activityLevel, time, size):
-    if activityLevel.lower() == "low":
-        if time.lower() == "low":
-            if size.lower() == "small":
-                return "/static/images/goldfish.jpg"
-            if size.lower() == "medium":
-                return "/static/images/turtlescanma.jpg"
-    pass
+#def getPetPic(activityLevel, time, size):
+    #if activityLevel.lower() == "low":
+        #if time.lower() == "low":
+            #if size.lower() == "small":
+                #return "/static/images/goldfish.jpg"
+            #if size.lower() == "medium":
+                #return "/static/images/turtlescanma.jpg"
+    #pass
